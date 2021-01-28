@@ -1,0 +1,19 @@
+.top-margin-first-container{
+  margin-top: 5rem;
+}
+
+.own-bg-color-grey{
+  background-color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.own-bg-color-light-green{
+  background-color: #6ba8a9;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.text-color-dark-green{
+  color: #357376;
+}
