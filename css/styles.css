@@ -17,3 +17,20 @@
 .text-color-dark-green{
   color: #357376;
 }
+
+.top-title-padding{
+  padding-top: 6rem;
+}
+
+.bottom-title-padding{
+  padding-bottom: 6rem;
+}
+
+.left-title-padding{
+  padding-left: 26.5rem;
+}
+
+.form-dimensions{
+  width: 45%;
+  margin: 0 auto;
+}
