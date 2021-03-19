@@ -77,7 +77,7 @@
         <hr class="my-4">
 
           <h2 class="text-color-dark-green">Cebu City</h2>
-          <table class="table table-hover">
+          <table class="doctors-table table table-hover">
               <thead>
                 <tr>
                   <th>Firstname</th>
@@ -113,7 +113,7 @@
             </table>
 
             <h2 class="text-color-dark-green">Mandaue City</h2>
-            <table class="table table-hover">
+            <table class="doctors-table table table-hover">
                 <thead>
                   <tr>
                     <th>Firstname</th>
@@ -142,7 +142,7 @@
               </table>
 
               <h2 class="text-color-dark-green">Consolacion</h2>
-              <table class="table table-hover">
+              <table class="doctors-table table table-hover">
                   <thead>
                     <tr>
                       <th>Firstname</th>
@@ -178,7 +178,7 @@
                 </table>
 
                 <h2 class="text-color-dark-green">Lilo-an</h2>
-                <table class="table table-hover">
+                <table class="doctors-table table table-hover">
                     <thead>
                       <tr>
                         <th>Firstname</th>
@@ -207,7 +207,7 @@
                   </table>
 
                   <h2 class="text-color-dark-green">Compostela</h2>
-                  <table class="table table-hover">
+                  <table class="doctors-table table table-hover">
                       <thead>
                         <tr>
                           <th>Firstname</th>
@@ -236,7 +236,7 @@
                     </table>
 
                     <h2 class="text-color-dark-green">Danao City</h2>
-                    <table class="table table-hover">
+                    <table class="doctors-table table table-hover">
                         <thead>
                           <tr>
                             <th>Firstname</th>
@@ -266,5 +266,32 @@
 
       </div>
     </div>
+	
+<div id="schedule-modal" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Kini Title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Kini Schedule
+      </div>
+      <div class="modal-footer">
+        <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+        <button type="button" class="btn btn-primary">Kini Action</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$('document').ready(function(){
+	$(".doctors-table").on("click","tr",function(){
+		$("#schedule-modal").modal("show");
+	});
+});
+</script>
   </body>
 </html>
